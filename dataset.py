@@ -228,7 +228,7 @@ elif selected=="Info":
     st.write("4. Lutte contre la pauvreté et l’insécurité alimentaire : Réduire la pauvreté et améliorer les revenus des familles pour leur permettre d'acheter ou de produire suffisamment de nourriture.")
     st.write("5. Accès aux soins de santé et surveillance de la croissance : Offrir un suivi médical régulier pour détecter et traiter les signes de malnutrition, en particulier chez les enfants et les femmes enceintes.")
 
-    st.image('C:/Users/hp/Documents/malnutrition/info.jpg')
+    # st.image('C:/Users/hp/Documents/malnutrition/info.jpg')
 elif selected=="Correlation":
     st.markdown ("<h2 style='text-align: left; color: white;'> ""Correlation entre les tables""</h2>", unsafe_allow_html=True)
     st.plotly_chart(fig3)
