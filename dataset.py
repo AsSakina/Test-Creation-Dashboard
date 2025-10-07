@@ -103,7 +103,7 @@ with header :
 
 
 #mettre une image sur le menu
-st.sidebar.image("C:/Users/hp/Documents/malnutrition/m1.jpg")
+# st.sidebar.image("C:/Users/hp/Documents/malnutrition/m1.jpg")
 #créer les options du menu
 with st.sidebar:
     selected = option_menu("Main Menu", [ 'Graphic','Info','Correlation'], 
