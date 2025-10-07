@@ -7,7 +7,7 @@ import matplotlib as plt
 import seaborn as sns
 import plotly.graph_objs as go
 import matplotlib.pyplot as plt
-#import altair as alt
+import altair as alt
 from streamlit_option_menu import option_menu 
 
 data= pd.read_csv("malnutrition.csv")
